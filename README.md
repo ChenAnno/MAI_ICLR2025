@@ -33,10 +33,10 @@ Please note:
 3. We pretrain the framework on 2 nodes, each with 8 V100 GPUs.
 
 ```bash
-# Train the query-guided cross-domain retrieval framework.
+# Train the MAI framework.
 sh train.sh
 
-# Evaluate on the FashionMT task.
+# Evaluate on the FashionMT dataset.
 sh validate.sh
 ```
 
